@@ -1,0 +1,36 @@
+section {
+    display: flex;
+    width: 100%;
+    background-color: lightblue;
+    height: 100px;
+
+}
+
+
+header {
+
+    background-color: aquamarine;
+    flex: 3;
+    margin: 5px;
+}
+
+nav {
+    background-color:lightseagreen;
+    flex: 2;
+    margin:5px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+a {
+
+    text-decoration: none;
+    color:white;
+    background-color:aquamarine;
+    font-size: 19px;
+}
