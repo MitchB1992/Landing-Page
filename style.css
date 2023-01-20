@@ -1,23 +1,23 @@
 section {
     display: flex;
     width: 100%;
-    background-color: lightblue;
+    background-color: #0e1f2f;
     height: 100px;
     border: 1px solid red;
   }
   
   #logo {
-    background-color: aquamarine;
+    background-color: #0e1f2f;
     flex: 3;
     margin: 5px;
-    border: 1px solid black;
+    border: 1px solid WHITE;
     display: flex;
     justify-content: start;
     align-items: center;
   }
   
   nav {
-    background-color: lightseagreen;
+    background-color: #0e1f2f;
     flex: 2;
     margin: 5px;
     display: flex;
@@ -27,104 +27,125 @@ section {
     gap: 10px;
   }
   
-
-  
   a {
     text-decoration: none;
     color: white;
-    background-color: aquamarine;
+    background-color: #0e1f2f;
     font-size: 19px;
-    border: 1px solid yellow;
     padding: 5px;
-
   }
-
-
+  
   a:hover {
-    color: firebrick;
+    color:#F57D29;
+    border-bottom: 1px solid #F57D29;
   }
   
   h1 {
     border: 1px solid red;
     margin-left: 10px;
     text-align: center;
+    color: white;
   }
-
-
+  
   header {
-
-    background-color: aquamarine;
+    background-color: #0e1f2f;
     height: 420px;
     width: 100%;
     display: flex;
   }
   
   .containers {
-
-    border:1px solid black;
-    margin:5px;
-    height:270px;
+    border: 1px solid black;
+    margin: 5px;
+    height: 270px;
   }
-
-
-
-
+  
   #info {
     display: block;
     height: 550px;
     width: 100%;
     background-color: lightgoldenrodyellow;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
-    
   }
-
-
-
+  
   .imgcont {
-
     background-color: white;
     width: 150px;
     height: 150px;
-    border:#3882F6 solid 3px;
+    border: #3882f6 solid 3px;
     border-radius: 5px;
   }
-
-
-
-
+  
   .mainimgcont {
     display: flex;
     gap: 1em;
-    justify-content:center;
+    justify-content: center;
     align-items: end;
     height: 220px;
     margin-bottom: 2px;
-    
   }
-
+  
   .mainimgcont1 {
     display: flex;
     gap: 1em;
-    justify-content:center;
+    justify-content: center;
     align-items: start;
     height: 220px;
   }
-
-
+  
   .imgcont1 {
-
     background-color: white;
     width: 150px;
     height: 100px;
     border: white solid 3px;
   }
-
-
-  #header  {
-
+  
+  #header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: blanchedalmond;
+    background-color: #0e1f2f;
+    
   }
+
+
+
+
+#img1 {
+
+  height: 370px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#img1container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 370px;
+}
+
+
+.header.containers {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+
+img {
+  width: 420px;
+  height: 370px;
+}
+
+#brand {
+
+  height: 110px;
+  width: 150px;
+}
