@@ -1,3 +1,12 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
 section {
     display: flex;
     width: 100%;
@@ -21,29 +30,47 @@ section {
     flex: 2;
     margin: 5px;
     display: flex;
-    border: 1px solid black;
+    border: 1px solid red;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    
   }
+
   
+
   a {
     text-decoration: none;
     color: white;
     background-color: #0e1f2f;
-    font-size: 19px;
+    font-size: 15px;
     padding: 5px;
+    overflow: hidden;
+    font-family: montserrat;
   }
+  
+  
   
   a:hover {
     color:#F57D29;
     border-bottom: 1px solid #F57D29;
   }
+
+  
+
   
   h1 {
-    border: 1px solid red;
+
     margin-left: 10px;
     text-align: center;
+    color: white;
+    font-family: Rowdies;
+    font-size: 40px;
+
+  }
+
+  h2 {
+
     color: white;
   }
   
@@ -146,6 +173,26 @@ img {
 
 #brand {
 
-  height: 110px;
-  width: 150px;
+  height: 90px;
+  width: 120px;
+}
+
+
+
+#headerart {
+
+  display: block;
+  width: 450px;
+}
+
+
+span {
+
+    color: #F57D29;
+}
+
+
+.navigation {
+  position: fixed;
+  top: 0;
 }
