@@ -177,7 +177,7 @@ div#img1 {
 
 .mainimgcont1 {
   display: flex;
-  gap: 4em;
+  gap: 3.6em;
   justify-content: center;
   align-items: start;
   height: 220px;
@@ -187,7 +187,7 @@ div#img1 {
   background-color: white;
   width: 220px;
   height: 100px;
-  border: white solid 3px;
+  border: #4f0d97 solid 6px;
   margin-top: 5px;
   border-radius: 5px;
 }
@@ -286,9 +286,11 @@ span {
 
 h4 {
   font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 h3 {
   font-size: 10px;
   margin-left: 450px;
+  opacity: 70%;
 }
