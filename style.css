@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -6,11 +5,10 @@ body {
 
 div {
   border: 2px dotted blue;
-
 }
 
 .special {
-  margin-top:90px;
+  margin-top: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,209 +22,218 @@ div {
 
 button {
   cursor: pointer;
-  background-color: #F57D29;
+  background-color: #f57d29;
   color: white;
   border: none;
   width: 100px;
   height: 30px;
   border-radius: 5px;
+  transition-duration: 0.4s;
+  font-family: Rowdies;
 }
 
 button:hover {
   cursor: pointer;
-  background-color:white;
-  color:#F57D29;
+  background-color: white;
+  color: #f57d29;
   border: none;
   width: 100px;
   height: 30px;
+  box-shadow: 0px 2px 10px 5px #f57d29;
+}
+
+button:active {
+  transition: 0s;
+  border: 2px inset;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  background-color: #0e1f2f;
+  height: 70px;
+  border: 1px solid red;
+}
+
+#logo {
+  background-color: #0e1f2f;
+  flex: 3;
+  margin: 5px;
+  border: 1px solid WHITE;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+nav {
+  background-color: #0e1f2f;
+  flex: 2;
+  margin: 5px;
+  display: flex;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
 
 
-section {
-    display: flex;
-    width: 100%;
-    background-color: #0e1f2f;
-    height: 70px;
-    border: 1px solid red;
-  }
-  
-  #logo {
-    background-color: #0e1f2f;
-    flex: 3;
-    margin: 5px;
-    border: 1px solid WHITE;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-  }
-  
-  nav {
-    background-color: #0e1f2f;
-    flex: 2;
-    margin: 5px;
-    display: flex;
-    border: 1px solid red;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    
-  }
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #0e1f2f;
+  font-size: 15px;
+  padding: 5px;
+  overflow: hidden;
+  font-family: montserrat;
+}
 
-  
-
-  a {
-    text-decoration: none;
-    color: white;
-    background-color: #0e1f2f;
-    font-size: 15px;
-    padding: 5px;
-    overflow: hidden;
-    font-family: montserrat;
-  }
-  
-  
-  
-  a:hover {
-    color:#F57D29;
-    border-bottom: 1px solid #F57D29;
-  }
-
-  
-
-  
-  h1 {
-
-    margin-left: 10px;
-    text-align: center;
-    color: white;
-    font-family: Rowdies;
-    font-size: 40px;
-
-  }
-
-  h2 {
-
-    color: white;
-  }
-  
-  header {
-    background-color: #0e1f2f;
-    height: 700px;
-    width: 100%;
-    display: flex;
-  }
-  
-  .containers {
-    border: 1px solid black;
-    margin: 5px;
-    height: 270px;
-  }
-  
-  #info {
-    display: block;
-    height: 550px;
-    width: 100%;
-    background-color: lightgoldenrodyellow;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .imgcont {
-    background-color: white;
-    width: 150px;
-    height: 150px;
-    border: #3882f6 solid 3px;
-    border-radius: 5px;
-  }
-
-
-  .mainimgcont {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    align-items: end;
-    height: 220px;
-    margin-bottom: 2px;
-    object-fit: contain;
-  }
-  
-  .mainimgcont1 {
-    display: flex;
-    gap: 1em;
-    justify-content: center;
-    align-items: start;
-    height: 220px;
-  }
-  
-  .imgcont1 {
-    background-color: white;
-    width: 150px;
-    height: 100px;
-    border: white solid 3px;
-  }
-  
-  #header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #0e1f2f;
-    
-  }
+a:hover {
+  color: #f57d29;
+}
 
 
 
+nav > a:hover {
+  width: 70px;
+  height: 15px;
+  text-align: center;
+
+  background:
+    linear-gradient(to right, #f57d29 1px, transparent 1px) 0 0,
+    linear-gradient(to right, #f57d29 1px, transparent 1px) 0 100%,
+    linear-gradient(to left, #f57d29 1px, transparent 1px) 100% 0,
+    linear-gradient(to left, #f57d29 1px, transparent 1px) 100% 100%,
+    linear-gradient(to bottom, #f57d29 1px, transparent 1px) 0 0,
+    linear-gradient(to bottom, #f57d29 1px, transparent 1px) 100% 0,
+    linear-gradient(to top, #f57d29 1px, transparent 1px) 0 100%,
+    linear-gradient(to top, #f57d29 1px, transparent 1px) 100% 100%;
+
+  background-repeat: no-repeat;
+  background-size: 5px 20px;
+}
+
+
+
+
+h1 {
+  margin-left: 10px;
+  text-align: center;
+  color: white;
+  font-family: Rowdies;
+  font-size: 40px;
+}
+
+h2 {
+  color: white;
+  font-family: Rowdies;
+}
+
+header {
+  background-color: #0e1f2f;
+  width: 100%;
+  display: flex;
+}
+
+.containers {
+  border: 1px solid black;
+  margin: 5px;
+  height: 270px;
+}
+
+#info {
+  display: block;
+  height: 550px;
+  width: 100%;
+  background-color: lightgoldenrodyellow;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgcont {
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  border: #3882f6 solid 3px;
+  border-radius: 5px;
+}
+
+.mainimgcont {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: end;
+  height: 220px;
+  margin-bottom: 2px;
+  object-fit: contain;
+}
+
+.mainimgcont1 {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: start;
+  height: 220px;
+}
+
+.imgcont1 {
+  background-color: white;
+  width: 150px;
+  height: 100px;
+  border: white solid 3px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0e1f2f;
+}
 
 #img1 {
-
-  height: 370px;
+  height: 250px;
   width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-top: 63px;
 }
 
 #img1container {
-
   display: flex;
   justify-content: center;
   align-items: center;
   height: 370px;
 }
 
-
 .header.containers {
-
   display: block;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 450px;
 }
 
 img {
   width: 420px;
-  height: 370px;
+  height: 250px;
 }
 
 #brand {
-
-  height: 60px;
-  width: 90px;
+  height: 40px;
+  width: 60px;
+  margin-left: 5px;
 }
 
-
+#brand:hover {
+  cursor: pointer;
+}
 
 #headerart {
-
   width: 450px;
 }
 
-
 span {
-
-    color: #F57D29;
+  color: #f57d29;
 }
-
 
 .navigation {
   position: fixed;
@@ -236,5 +243,3 @@ span {
 .imgcont.one {
   object-fit: contain;
 }
-
-
