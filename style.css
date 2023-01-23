@@ -77,30 +77,33 @@ a {
   padding: 5px;
   overflow: hidden;
   font-family: montserrat;
+  transition: 0.10s;
+  border-radius: 5px;
 }
 
-a:hover {
+
+nav > a:hover {
+  width: 90px;
+  height: 25px;
+  text-align: center;
+  border-radius: 5px;
+  background-color:white;
+  font-weight: 900;
+ transition: ease-in-out 0.5s;
   color: #f57d29;
 }
 
-nav > a:hover {
-  width: 70px;
-  height: 15px;
-  text-align: center;
 
-  background: linear-gradient(to right, white 1px, transparent 10px) 0 0,
-    linear-gradient(to right, white 1px, transparent 10px) 0 100%,
-    linear-gradient(to left, white 1px, transparent 10px) 100% 0,
-    linear-gradient(to left, white 1px, transparent 10px) 100% 100%,
-    linear-gradient(to bottom, white 1px, transparent 10px) 0 0,
-    linear-gradient(to bottom, white 1px, transparent 10px) 100% 0,
-    linear-gradient(to top, white 1px, transparent 10px) 0 100%,
-    linear-gradient(to top, white 1px, transparent 10px) 100% 100%;
 
-  background-repeat: no-repeat;
-  background-size: 5px 20px;
-  border-radius: 5px;
+
+
+nav >a:active {
+  border-style: inset;
+  border: #4f0d97 5px solid;
 }
+
+
+
 
 h5 {
   font-size: 10px;
@@ -152,11 +155,13 @@ header {
   height: 190px;
   border: #f57d29 solid 3px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 
 .imgcont:hover {
   width: 230px;
   height: 200px;
+  transition: 0.2s;
 }
 
 .mainimgcont {
@@ -229,7 +234,7 @@ img {
   height: 250px;
 }
 
-img:hover {
+.hvrimg:hover {
   opacity: 70%;
   cursor: pointer;
 }
@@ -242,6 +247,7 @@ img:hover {
 
 #brand:hover {
   cursor: pointer;
+  filter: brightness(170%);
 }
 
 #headerart {
@@ -255,7 +261,7 @@ span {
 .navigation {
   position: fixed;
   top: 0;
-  box-shadow: 10px 5px 5px #4f0d97;
+  box-shadow: 0px 5px 5px #4f0d97;
   z-index: 1;
 }
 
