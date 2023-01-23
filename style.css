@@ -313,7 +313,9 @@ h3 {
 #git {
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
+
 
 .info {
   display: flex;
@@ -329,7 +331,9 @@ h3 {
 #discord {
   width: 40px;
   height: 40px;
+  cursor: pointer;
 }
+
 
 #socials {
   gap: 1em;
