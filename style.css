@@ -3,8 +3,7 @@ body {
   padding: 0;
 }
 
-div {
-}
+
 
 .special {
   margin-top: 90px;
@@ -172,9 +171,6 @@ header {
   object-fit: contain;
 }
 
-div#img1 {
-}
-
 .mainimgcont1 {
   display: flex;
   gap: 3.6em;
@@ -293,4 +289,40 @@ h3 {
   font-size: 10px;
   margin-left: 450px;
   opacity: 70%;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap:0em;
+}
+
+#git {
+  width: 40px;
+  height: 40px;
+}
+
+
+.info {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.discordcont {
+  display: flex;
+  align-items: center;
+
+}
+
+#discord {
+
+  width: 40px;
+  height: 40px;
+}
+
+#socials {
+  gap: 1em;
 }
