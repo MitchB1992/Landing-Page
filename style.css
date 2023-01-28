@@ -77,7 +77,6 @@ a {
   padding: 5px;
   overflow: hidden;
   font-family: montserrat;
-  transition: 0.10s;
   border-radius: 5px;
 }
 
@@ -89,8 +88,8 @@ nav > a:hover {
   border-radius: 5px;
   background-color:white;
   font-weight: 900;
- transition: ease-in-out 0.5s;
   color: #f57d29;
+  border: 2px inset #4f0d97;
 }
 
 
